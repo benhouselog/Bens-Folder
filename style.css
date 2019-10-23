@@ -1,3 +1,4 @@
+@import url('burger-style.css');
 body {
     background-color: lightblue;
 }
@@ -23,4 +24,9 @@ h4 {
     color: black;
     text-align: center;
     font-size: 18px;
+}
+#main-nav{
+    position: relative;
+    right: 0px;
+    transition: right .3s;
 }
