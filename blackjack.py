@@ -176,7 +176,7 @@ class Hand:
         Adds a Card to the Hand. 
         """
         ###################################################################
-    self.__cards.append(Card)
+        self.__cards.append(card)
 
         ###################################################################
 
@@ -301,8 +301,7 @@ class Game(object):
         print ("You Lose")
     elif get_hard_score and dealer.get_hard_score == 21:
         print ("You Win")
-    elif get_hard_score < dealer.get_hard_score and =< 21:
-        print ("You Lose")
+    
 
     
 
