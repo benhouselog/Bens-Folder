@@ -1,4 +1,3 @@
-  
 function navigateTo(page) {
     let url = "pages/" + page + ".html";
     console.log("I'm in the navigate function for " + url);

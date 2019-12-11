@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Danny Devitos Pizzeria - Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <header w3-include-html="pages/header.html"></header>
+    <section id="cart-area" w3-include-html="pages/cart.html"></section>
+    <nav w3-include-html="pages/nav-menu.html"></nav>
+    <main w3-include-html="pages/food.html"></main>
+    <script type="text/javascript" src="scripts/include.js"></script>
+    <script type="text/javascript" src="scripts/togglemenu.js"></script>
+    <script type="text/javascript" src="scripts/navigate.js"></script>
+    <script type="text/javascript" src="scripts/togglecart.js"></script>
+    <script type="text/javascript" src="scripts/online-order.js"></script>
+    <script type="text/javascript" src="scripts/fill-food-menu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+   window.onload = async function(){
+    await includeHTML();
+    await updateCart();
+    await populateFood();
+   }
+    </script>
+</body>
+
+</html>
+        

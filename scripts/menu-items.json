@@ -1,0 +1,60 @@
+{
+    "menu":  [{
+            "name": "Pizzas",
+            "items": [{
+                "name": "Cheese",
+                "description": "The american classic, fresh mozarella on buttered crust",
+                "image": "https://lh3.googleusercontent.com/-1Iil24qU-EM/VqnJ50T5vII/AAAAAAAFQzI/O2jXEMQXKt0/s800-Ic42/cheese-pizza-2.jpg",
+                "price": 7
+            }, {
+                "name": "Pepperoni",
+                "description": "Mr. Devitos favorite and the world loved Pizza",
+                "image": "http://www.sugardale.com/sites/default/files/stuffed%20crust%20pizza.jpg",
+                "price": 7
+            }]
+            
+        },
+        {
+            "name": "Appetizers",
+            "items": [{
+                "name": "Mozzerela Sticks",
+                "description": "Fresh mozzerela deepfried and surrounded by buttered bread crumbs",
+                "image": "https://www.simplyrecipes.com/wp-content/uploads/2019/07/mozzerella_airfryer_hero0009-600x840.jpg",
+                "price": 4
+            }]
+        },
+        {
+            "name": "Kids Menu",
+            "items": [{
+                "name": "Chicken Strips",
+                "description": "The kids classic, served with fries",
+                "price": 7
+            }]
+        },
+        {
+            "name": "Specialty Pizzas",
+            "items": [{
+                "name": "Hercules Pizza",
+                "description": "A 12 inch pizza piled with mountains of meat",
+                "price": 14
+            }, {
+                "name": "Matilda's Pizza",
+                "description": "A pizza option for all the vegans out there",
+                "price": 14
+            }]
+        },
+        {
+            "name": "Beverages",
+            "items": [{
+                "name": "Coke Products",
+                "description": "Coke, Diet Coke, Cherry Coke, Sprite",
+                "price": 2
+            }, {
+                "name": "Specialty Shakes",
+                "description": "Vanilla, Shamrock, Chocolate",
+                "price": 4,
+                "image": "https://www.thespruceeats.com/thmb/zRnrS0wxbjGoKnmzBD-fxVWUnVs=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chocolatemilkshake-5c6e0b9e46e0fb0001e6e84d.jpg"
+            }]
+        }
+    ]
+}
